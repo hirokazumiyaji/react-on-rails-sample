@@ -12,6 +12,7 @@ gem 'webpacker'
 gem 'jbuilder', '~> 2.5'
 gem 'tzinfo-data'
 gem 'react_on_rails'
+gem 'execjs'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -24,3 +25,5 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'capistrano-rails'
 end
+
+gem 'mini_racer', platforms: :ruby
